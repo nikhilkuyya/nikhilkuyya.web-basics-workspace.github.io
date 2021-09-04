@@ -1,0 +1,11 @@
+{
+  "name": "web-basics-workspace",
+  "version": "1.0.0",
+  "description": "html,css, accessbility and responsive design",
+  "main": "index.ts",
+  "repository": "git@github.com:nikhilkuyya/web-basics-workspace.git",
+  "author": "Nikhil Kuyya",
+  "license": "MIT",
+  "private": true,
+  "workspaces":["apps/*"]
+}

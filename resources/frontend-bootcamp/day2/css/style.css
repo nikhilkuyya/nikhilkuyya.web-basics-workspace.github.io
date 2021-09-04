@@ -1,0 +1,71 @@
+/* my first css */
+body {
+  font-family: "DollyPro-Reg";
+  background-color: #ffffcc;
+  font-size: 1.2rem;
+}
+
+img {
+  border: 5px double greenyellow;
+}
+
+h1 {
+  border: 5px dotted cadetblue;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+cite {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: brown;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: black;
+}
+
+.bigitalic {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.bitlinespacing {
+  line-height: 2.3rem;
+}
+
+.mixbackground {
+  background-color: cyan;
+  border-left: 5px solid green;
+}
+
+.importantText {
+  color: crimson;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
