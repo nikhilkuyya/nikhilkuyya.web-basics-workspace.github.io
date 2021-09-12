@@ -5,3 +5,14 @@ h1 {
     color : red;
 }
 
+.thick-green-border{
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+}
+
+.style-image-radius{
+    border-radius : 11% 89% 8% 92% / 86% 12% 88% 14%;
+    transform: rotate(-5deg);
+}
+
