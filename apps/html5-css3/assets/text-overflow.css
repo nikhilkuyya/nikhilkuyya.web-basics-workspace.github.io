@@ -1,0 +1,21 @@
+.small-div {
+  width: 300px;
+  height: fit-content;
+  border: 2px solid green;
+}
+
+.overflow-css {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+p::selection {
+  color: green;
+  background-color: antiquewhite;
+}
+
+.two-columns {
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 2px;
+}
