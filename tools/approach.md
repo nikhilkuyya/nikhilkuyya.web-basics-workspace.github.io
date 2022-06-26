@@ -4,9 +4,13 @@ Dated: 26th June 2022
 
 ## First thing First
 
-- We are working on Frontend BootCamp : which focus on HTML, CSS and Javascript.
+- Frontendmasters BootCamp : which focus on HTML, CSS and Javascript.
+  - which also covers the Interneting is Hard has reading.
 - Reading the HTML Dev Spec.
-- Reading the Interneting is Hard and Web.dev courses along side with Learning on the Topic.
+- Web.dev 
+  - CSS
+  - HTML Forms 
+  - Learn Responsive
 - Also Reading on MDN Spec for the Same Element for HTML for now analysis.
 - Workout on the Freecodecamp for the exercise and references.
 
