@@ -1,0 +1,47 @@
+/* my css file */
+/** we are going to build 
+ beautiful styling **/
+
+body {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #789;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+cite {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bigbold {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 1) 38%, rgba(0, 0, 0, 1) 55%);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body>p:first-of-type {
+  line-height: 2rem;
+}
+
+a {
+  color: var(--currentColor)
+}
