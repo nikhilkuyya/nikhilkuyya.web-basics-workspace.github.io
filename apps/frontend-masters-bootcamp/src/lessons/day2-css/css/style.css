@@ -39,7 +39,7 @@ p {
 }
 
 body>p:first-of-type {
-  line-height: 2rem;
+  line-height: 2;
 }
 
 a {
