@@ -1,13 +1,47 @@
-figure {
-  border: 3em solid antiquewhite;
-  outline: 2em solid aquamarine;
-  margin: 0 auto;
-  width: 600px;
+.small-box {
+  width: 200px;
+  height: 100px;
+  padding:1em;
 }
+
+.red {
+  color: red;
+}
+
+.blue { 
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.content-box{
+  box-sizing: content-box;
+}
+
+.border-box{
+  box-sizing: border-box;
+}
+
+figure {
+  border: 1em dotted  antiquewhite;
+  outline: 2em dotted currentColor;
+  margin: 0 auto;
+}
+
+.black-border {
+  border: 1em solid gray;
+}
+
 body {
   margin: 0;
 }
+
+
+
 p {
+  box-sizing: border-box;
   width: 600px;
   padding: 0;
   margin: 0 auto;
@@ -16,9 +50,10 @@ p {
 }  
 
 .outline-offset {
+  box-sizing: border-box;
   padding: 20px;
   background-color: antiquewhite;
-  border: 2px solid cyan;
+  border: 2px solid blueviolet;
   outline-offset: 10px;
   outline: 2px ridge cyan;
   margin: 4em;

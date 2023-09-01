@@ -10,10 +10,11 @@
     <div style="color:blue; border: 1px dashed currentColor;">
         The color of this text is blue.
         CurrentColor : which takes the color value of enclosed element.
-        <div style="background-color:currentColor; opacity: 1;">test Div Color Pick</div>
+        <div style="color: greenyellow; opacity: 1; width: 50%; height: 50px; border-style: double;
+        border-color: currentColor; border-width: 1em;">Current is put as border</div>
         This block is surrounded by a blue border.
     </div>
-
+    <div style="display: flex; justify-content: space-around; border: 2px groove red; margin-block-start: 1em;">
     <p style="
         width: 100px;
         height: 50px;
@@ -25,7 +26,13 @@
         height: min-content;
         padding: 20px;
         border: 1px solid;
-      ">I am a paragraph of text that has a few words in it.</p>
-      
+      ">Hello, covered with height of min-content.</p>
+    <p style="
+        width: 100px;
+        height: min-content;
+        padding: 20px;
+        border: 1px solid;
+      ">I am a paragraph of text that has a few words in it covered with height of min-content.</p>
+      </div>
 </body>
 </html>
