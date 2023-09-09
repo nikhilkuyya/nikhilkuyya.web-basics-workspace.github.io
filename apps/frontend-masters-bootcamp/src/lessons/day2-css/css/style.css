@@ -51,7 +51,7 @@ p {
 }
 
 .underline {
-  text-decoration: underline bisque double;
+  text-emphasis: double-circle var(--yellow);
 }
 
 body>p:first-of-type {
