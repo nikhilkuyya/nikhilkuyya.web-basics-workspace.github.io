@@ -1,6 +1,7 @@
 
 a {
   color: var(--currentColor);
+  text-decoration: none;
 }
 
 
@@ -8,16 +9,21 @@ a {
 a:link{
   color: var(--blue);
 }
+
 a:visited {
   color: var(--yellow);
 }
+
 a:focus {
   color: var(--grey);
 }
 
 a:hover {
   color: var(--redgreen);
+  text-decoration: underline;
 }
+
+
 
 a:active {
   color: var(--red);
