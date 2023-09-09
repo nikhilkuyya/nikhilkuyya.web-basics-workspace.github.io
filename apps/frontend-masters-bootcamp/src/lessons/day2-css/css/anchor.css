@@ -1,0 +1,24 @@
+
+a {
+  color: var(--currentColor);
+}
+
+
+
+a:link{
+  color: var(--blue);
+}
+a:visited {
+  color: var(--yellow);
+}
+a:focus {
+  color: var(--grey);
+}
+
+a:hover {
+  color: var(--redgreen);
+}
+
+a:active {
+  color: var(--red);
+}
