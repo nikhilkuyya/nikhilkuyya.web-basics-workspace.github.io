@@ -50,10 +50,17 @@ p {
   color: #333;
 }
 
+/** only for testing the important rule **/
 .underline {
-  text-emphasis: double-circle var(--yellow);
+  background-color: var(--yellow) !important;
 }
 
 body>p:first-of-type {
   line-height: 2;
+}
+
+@layer underline {
+  .underline {
+    background-color: var(--red) !important;
+  }
 }
