@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+section{
+    border-block-end: 2px solid red;
+
+} 
+footer {
+    margin-block-start: 5px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-block-start: 2px solid salmon;
+}
+
+.wrapper { 
+    width: 80%;
+    margin: 0 auto;
+}
+
+/** utils **/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row nowrap;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul > li { 
+    display: inline-block;
+}
+
+/*** Header ***/
+
+header {
+    gap: 2em;
+}
+
+.leftheader {
+    flex-basis: 40%;
+    text-align: right;
+    padding-inline-end:0.5rem;
+}
+
+.rightheader {
+    flex-basis: 60%;
+    padding-inline-start: 0.5rem;
+    padding-block-start: 2em;
+}
+
+.rightheader h1 {
+    margin: 0;
+    color: salmon;
+    font-size: 3rem;
+}
+
+.rightheader p {
+    margin-block-start: -0.5rem;
+    text-align: start;
+}
+
+/*** Nav Styles */
+nav {
+    border-block-start: 2px solid salmon;
+    border-block-end: 2px solid sandybrown;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 1em 2em;
+}
+
+nav li {
+    margin: 5px;
+}
+
+/** article styles **/
+article {
+    margin-block: 2rem;
+}
+
+article::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.leftarticle {
+    float: left;
+    margin-block-end: 1rem;
+    margin-inline-end: 1rem;
+    border-radius: 1rem;
+}
