@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link href="css/forms.css" rel="stylesheet">
+	<script type="module" src="js/forms.js">
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<section>
+			<h1>Alien Abduction Order Form</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<form id="abduction-order-form" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
+				method="POST">
+				<input type="hidden" name="send_to" value="nikhilkuyya@gmail.com" />
+				<fieldset name="contact">
+					<legend>Your contact information</legend>
+					<label for="name">Your name <input type="text" id="name" name="name" /></label>
+					<label for="phone">Phone number <input type="tel" id="phone" name="phone" placeholder="include area code" />
+					</label>
+					<label for="email">Email
+						<input type="email" id="email" name="email" />
+					</label>
+				</fieldset>
+				<fieldset name="abduction">
+					<legend>About your abduction </legend>
+					<label for="requesteddate">Requested date
+						<input type="date" name="requestedDate" id="requesteddate" />
+					</label>
+					<label>How many people would you like abducted?
+						<input type="number" name="people" id="people" min="1" max="10" step="1" />
+					</label>
+
+					<fieldset>
+						<legend>What type of UFO do you prefer?</legend>
+						<label>
+							<input type="radio" name="ufoType" value="classic" />Classic oval UFO
+						</label>
+						<label>
+							<input type="radio" name="ufoType" value="start-wars" />Star Wars-style Imperial cruiser
+						</label>
+						<label>
+							<input type="radio" name="ufoType" value="battle-start" />
+							Battlestar Galactica-style Viper</label>
+
+						<label><input type="radio" name="ufoType" value="borg-style" /> Borg-style cube</label>
+
+					</fieldset>
+
+					<label for="experience">What type of abduction experience do you want?
+						<select id="experience" name="experience">
+							<option selected>select experience</option>
+							<option value="solar-system">Tour of the solar system</option>
+							<option value="alien-dinner">Alien dinner and discussion</option>
+							<option value="alien-dance">Alien dance lessons</option>
+							<option value="whale-watching">Whale watching</option>
+						</select>
+					</label>
+
+					<label for="requests">Special requests:
+						<textarea name="requests" id="requests"></textarea>
+					</label>
+
+					<label for="subscribe">
+						<input type="checkbox" name="subscribe" value="subscribe" checked id="subscribe" />Add me to your email list
+					</label>
+				</fieldset>
+				<button type="submit">submit</button>
+			</form>
+		</section>
+		<aside>
+			<h3>Our Location</h3>
+			<address>
+				Frontend Masters &middot;
+				60 South 6th Street &middot;
+				Suite 3625 &middot;
+				Minneapolis, MN 55402
+			</address>
+		</aside>
+	</div>
+</body>
+
+</html>
