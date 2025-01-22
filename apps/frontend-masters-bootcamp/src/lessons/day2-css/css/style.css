@@ -1,11 +1,11 @@
 /* my css file */
-/** we are going to build 
+/** we are going to build
  beautiful styling **/
 
 @import url("anchor.css");
 @import url("heading.css");
 
-:root{
+:root {
   --blue: #007bff;
   --red: #dc3545;
   --grey: #6c757d;
@@ -13,18 +13,18 @@
   --yellow: #ffc107;
   --font: 1.2rem;
   --scale: 1.15;
-  --h6 : calc(var(--font) * var(--scale));
-  --h5 : calc(var(--h6) * var(--scale));
-  --h4 : calc(var(--h5) * var(--scale));
+  --h6: calc(var(--font) * var(--scale));
+  --h5: calc(var(--h6) * var(--scale));
+  --h4: calc(var(--h5) * var(--scale));
   --h3: calc(var(--h4) * var(--scale));
   --h2: calc(var(--h3) * var(--scale));
   --h1: calc(var(--h2) * var(--scale));
 }
+
 body {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #789;
-  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -50,17 +50,7 @@ p {
   color: #333;
 }
 
-/** only for testing the important rule **/
-.underline {
-  background-color: var(--yellow) !important;
-}
 
-body>p:first-of-type {
+body > p:first-of-type {
   line-height: 2;
-}
-
-@layer underline {
-  .underline {
-    background-color: var(--red) !important;
-  }
 }
