@@ -1,14 +1,18 @@
+body {
+  margin: 0;
+}
+
 .small-box {
   width: 200px;
   height: 100px;
-  padding:1em;
+  padding: 1em;
 }
 
 .red {
   color: red;
 }
 
-.blue { 
+.blue {
   color: blue;
 }
 
@@ -16,17 +20,17 @@
   color: green;
 }
 
-.content-box{
+.content-box {
   box-sizing: content-box;
 }
 
-.border-box{
+.border-box {
   box-sizing: border-box;
 }
 
 figure {
-  border: 1em dotted  antiquewhite;
-  outline: 2em dotted currentColor;
+  border: 1em solid antiquewhite;
+  /* outline: 2em solid currentColor; */
   margin: 0 auto;
 }
 
@@ -34,20 +38,14 @@ figure {
   border: 1em solid gray;
 }
 
-body {
-  margin: 0;
-}
-
-
-
-p {
+.outline-overlap {
   box-sizing: border-box;
   width: 600px;
   padding: 0;
   margin: 0 auto;
-  outline: 2em solid black;
+  outline: 2em dotted mediumaquamarine;
   border: 3em solid blue;
-}  
+}
 
 .outline-offset {
   box-sizing: border-box;
