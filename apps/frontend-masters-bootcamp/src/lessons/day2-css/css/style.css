@@ -2,8 +2,8 @@
 /** we are going to build
  beautiful styling **/
 
-@import url("anchor.css");
 @import url("heading.css");
+@import url("anchor.css");
 
 :root {
   --blue: #007bff;
@@ -24,7 +24,7 @@
 body {
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #789;
+  background-color: rgb(197, 204, 211);
   margin: 0 auto;
 }
 
@@ -33,15 +33,15 @@ blockquote {
   font-size: 3rem;
   font-style: italic;
   text-align: center;
+  background: lightblue content-box no-repeat left / contain scroll;
+  background-image: url(https://picsum.photos/seed/picsum/200/300), url(https://picsum.photos/200/300.jpg),
+  linear-gradient(to right, rgb(30 75 115 / 100%), rgb(255 255 255 / 0%));
+  background-position: left, right, center;
+  background-size: 10% 100%, 10% 100%, 100% 100%;
 }
 
 cite {
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.bigbold {
-  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -50,7 +50,22 @@ p {
   color: #333;
 }
 
-
 body > p:first-of-type {
   line-height: 2;
+}
+
+/** Cascades the imports */
+a:visited {
+  color: white;
+}
+
+
+
+.bigbold {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.testclass {
+  text-align: end;
 }
